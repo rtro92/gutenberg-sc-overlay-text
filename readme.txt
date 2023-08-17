@@ -1,39 +1,36 @@
 === Sc Text Overlay ===
-Contributors:      The WordPress Contributors
+Contributors:      Myles Taylor
 Tags:              block
 Tested up to:      6.1
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
+Gutenberg Block - Adds a section with a background image and a text overlay box.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+Adds a section with a background image and a text overlay box.
 
 For backwards compatibility, if this section is missing, the full length of the short description will be used, and
 Markdown parsed.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/sc-text-overlay` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
+1. Upload the plugin files to the `/wp-content/plugins/sc-text-overlay` directory.
+2. Activate the plugin through the 'Plugins' screen in WordPress
 
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+== What image dimensions should I use? ==
 
-An answer to that question.
+The recommended image dimensions are 1200x500, however any image will work. The image is stretched using cover and centered,
+so take that into consideration when selecting an image.
 
-= What about foo bar? =
+== Is the background color customizable? ==
 
-Answer to foo bar dilemma.
+This feature will be added in future updates. However no the default color is rgba(0,0,0, 0.5) with a font color of #FFF.
 
 == Screenshots ==
 
